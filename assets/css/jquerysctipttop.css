@@ -1,0 +1,63 @@
+#jquery-script-menu {
+position: fixed;
+height: 186px;
+width: 100%;
+top: 0;
+left: 0;
+border-top: 3px solid #FF9600;
+background: #004209;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+padding: 1px 0;
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+/*
+background-image: url("../logofull.jpg");
+ background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 100% 160px;
+	*/
+}
+
+.jquery-script-center {
+width: 960px;
+margin: 0 auto;
+}
+.jquery-script-center ul {
+width: 212px;
+float:left;
+line-height:45px;
+margin:0;
+padding:0;
+list-style:none;
+}
+.jquery-script-center a {
+	text-decoration:none;
+}
+.jquery-script-ads {
+width: 728px;
+height:90px;
+float:right;
+}
+.jquery-script-clear {
+clear:both;
+height:0;
+}
+
+.logo-img {
+    float: center;
+    position: relative;
+	text-align: center;
+}
+.bg-div {
+   overflow: hidden;
+   text-align: center;
+}
+nav {
+    float: left;
+	color:#fff;
+	text-align: center;
+}
