@@ -27,6 +27,9 @@
                 <ul class="treeview-menu">
                 	<li class="<?=$this->uri->segment('2')=="pegawai"?'active':'';?>"><a href="<?php echo site_url('master/pegawai') ?>"><i class="fa fa-user"></i> Pegawai</a></li>
                 </ul>
+                <ul class="treeview-menu">
+                	<li class="<?=$this->uri->segment('2')=="log"?'active':'';?>"><a href="<?php echo site_url('memo/log') ?>"><i class="fa fa-user"></i> Terkirim</a></li>
+                </ul>
             </li>
             <li class="treeview active">
                 <a href="#">
